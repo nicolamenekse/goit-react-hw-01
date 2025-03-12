@@ -1,0 +1,28 @@
+.transactionContainer {
+    width: 100%;
+    border-collapse: collapse;
+  
+  }
+  
+  .transactionContainer th,
+  .transactionContainer td {
+    padding: 12px 16px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .transactionContainer th {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+  }
+  
+  
+  .transactionContainer tr:nth-child(even) {
+    background-color: #d3d3d3;
+  }
+  
+  
